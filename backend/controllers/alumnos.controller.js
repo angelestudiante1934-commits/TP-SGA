@@ -60,7 +60,7 @@ async function actualizarAlumno(req, res) {
     )
     if (!alumno) {
         return res.status(404).json({
-            mensaje: "Alumno no econtrado"
+            mensaje: "Alumno no encontrado"
         })
     }
 
